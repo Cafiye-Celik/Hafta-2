@@ -1,7 +1,7 @@
 # Hafta-2
 08.02.2025 Emrah Hocanın dersi 
 public class bsınıfı {
-// 1'den N'e kadar olan tek ve çift sayıların toplamını veren metot
+// 1'den N'e kadar olan tek ve çift sayıların toplamını veren metot//
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("n sayıyı giriniz: ");
@@ -24,7 +24,7 @@ public class bsınıfı {
     }
        ///******************************///
        
-//İki sayının toplamını veren metot
+//İki sayının toplamını veren metot//
  public static void Toplam ( int a , int b ){
         int toplam1 = a + b;
         System.out.println( "Toplam= " + toplam1 );
@@ -35,7 +35,7 @@ public class bsınıfı {
 
     ///******************************///
 
-//1den N kadar olan sayilarin ortalamasini donduren metot
+//1den N kadar olan sayilarin ortalamasini donduren metot//
    public static double Ortalama ( int n){
         int toplam= 0;
         for ( int i = 0; i <= n; i++){
@@ -55,7 +55,7 @@ public class bsınıfı {
     
     ///******************************///
     
- //Bir dizinin elemanlarinin ortalamasını yazdiran metot
+ //Bir dizinin elemanlarinin ortalamasını yazdiran metot//
  public static double DiziYazdirma ( int dizi []){
         double toplam = 0;
         for ( int i = 0 ; i < dizi.length ; i++ ){
@@ -73,7 +73,7 @@ public class bsınıfı {
     
     ///******************************/// 
     
-//Bir dizinin en küçük elamını döndüren metot
+//Bir dizinin en küçük elamını döndüren metot//
 public static int enKucukbulma (int dizi[]){
         //int dizi [] burda tanımlama gerek yok
         int enKucuk = dizi [0];
@@ -93,7 +93,7 @@ public static int enKucukbulma (int dizi[]){
     
   ///******************************///
   
-    ///Bir dizideki en büyük elamanı bulma metodu
+    ///Bir dizideki en büyük elamanı bulma metodu///
   public static void enBuyuk ( int dizi []){
       int enBuyuk = dizi[0];
       for (int i = 0; i<dizi.length ; i++){
@@ -114,7 +114,7 @@ public static int enKucukbulma (int dizi[]){
 
     ///******************************///
 
-///2 nokta çarpımı yapan metodu (dot product)
+///2 nokta çarpımı yapan metodu (dot product)///
    public static int dotProduct (int v1 [], int v2 []){
         int toplam = 0;
         for (int i = 0; i < v1.length; i++){
@@ -139,7 +139,7 @@ public static int enKucukbulma (int dizi[]){
     
  ///******************************///
  
-///2 vektör toplamı
+///2 vektör toplamı///
     public static void Vektor ( int v1 [], int v2 []){
         for (int i = 0; i < v1.length; i++){
             System.out.println( v1 [i] + v2 [i]);
@@ -160,7 +160,7 @@ public static int enKucukbulma (int dizi[]){
     
    ///******************************///
    
-///Matristeki her satırdaki en küçük elamanları bulan  metot
+///Matristeki her satırdaki en küçük elamanları bulan  metot///
     public static void Matris_satır (int dizi [][]){
         for (int i = 0; i < dizi.length; i++) {
            int enKucuk = dizi [i][0];
@@ -182,7 +182,7 @@ public static int enKucukbulma (int dizi[]){
          sutun_kucuk(dizi);
     }
 
-// Sütundaki en küçük değeri bulan metot
+// Sütundaki en küçük değeri bulan metot//
      public static void sutun_kucuk ( int dizi [][]){
         for (int j = 0; j < dizi.length; j++) {
             int enKucuk = dizi [0][j];
