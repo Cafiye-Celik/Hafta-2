@@ -2,13 +2,13 @@
 08.02.2025 Emrah Hocanın dersi 
 public class bsınıfı {
 // 1'den N'e kadar olan tek ve çift sayıların toplamını veren metot//
-    ///public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("n sayıyı giriniz: ");
         int n = sc.nextInt();
-        Toplam(n);///
+        Toplam(n);
     }
-    ///public static void Toplam (int n){
+    public static void Toplam (int n){
         int toplamTek= 0;
         int toplamCift= 0;
         for ( int i= 1; i<= n; i++){
@@ -16,7 +16,7 @@ public class bsınıfı {
                 toplamCift += i;
             }
             else {
-                toplamTek += i;///
+                toplamTek += i;
             }
         }
         System.out.println("Çift Sayılar "+ toplamCift);
