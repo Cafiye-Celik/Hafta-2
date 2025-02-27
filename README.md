@@ -197,7 +197,7 @@ public static int enKucukbulma (int dizi[]){
     }
 
 }
-
+}
     
 
 
